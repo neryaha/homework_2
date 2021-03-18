@@ -22,7 +22,7 @@ public class practiceFormTest {
         $("#lastName").setValue("Ivanov");
         $("#userEmail").setValue("test@test.test");
 
-        $("[for='gender-radio-1']").click();
+        $("label[for='gender-radio-1']").click();
         $("#userNumber").setValue("8800123456");
 
         $("#dateOfBirthInput").click();
