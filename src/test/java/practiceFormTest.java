@@ -21,11 +21,11 @@ public class practiceFormTest {
         $("#userEmail").setValue("test@test.test");
 
         $("label[for='gender-radio-1']").click();
-        $("#userNumber").setValue("8800123456");
+        $("#userNumber").setValue("8800123459");
 
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOptionByValue("0");
-        $(".react-datepicker__year-select").selectOptionByValue("1987");
+        $(".react-datepicker__year-select").selectOptionByValue("1986");
         $(".react-datepicker__day--001").click();
 
         $("#subjectsInput").setValue("Math").pressEnter();
@@ -34,7 +34,7 @@ public class practiceFormTest {
 
         $("#uploadPicture").uploadFromClasspath("tst.jpg");
 
-        $("#currentAddress").setValue("Test Location 123");
+        $("#currentAddress").setValue("Test Location 129");
 
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Delhi").pressEnter();
